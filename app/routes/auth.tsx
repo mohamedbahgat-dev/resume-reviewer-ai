@@ -48,8 +48,6 @@ const Auth = () => {
 
         </section>
       </div>
-
-
     </main>
   );
 };
