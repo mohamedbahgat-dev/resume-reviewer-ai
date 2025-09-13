@@ -24,7 +24,7 @@ export default function Home() {
 
   },[auth.isAuthenticated])
 
-  return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+  return <main className="bg-[url('/images/bg-small.svg')] bg-cover">
     <NavBar />
 
     <section className='main-section'>
@@ -41,12 +41,6 @@ export default function Home() {
         </div>
       )}
     </section>
-
-
-
-
-
-
 
   </main>;
 }
